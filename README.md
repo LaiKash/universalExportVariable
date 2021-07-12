@@ -2,7 +2,7 @@
 
 
 ## BASH
-
+`
 #!/bin/bash
 echo "Enter variable name: "
 read variable_name
@@ -21,9 +21,9 @@ case $restart in
     n) echo "don't forget to restart your computer manually";;
 esac
 exit
-
+`
 ## ZSH
-
+`
 #!/bin/bash
 echo "Enter variable name: "
 read variable_name
@@ -42,3 +42,4 @@ case $restart in
     n) echo "don't forget to restart your computer manually";;
 esac
 exit
+`
