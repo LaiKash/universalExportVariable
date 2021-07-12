@@ -3,7 +3,7 @@
 
 ## BASH
 
-`#!/bin/bash
+#!/bin/bash
 echo "Enter variable name: "
 read variable_name
 echo "Enter variable value: "
@@ -20,11 +20,11 @@ case $restart in
     y) sudo shutdown -r 0;;
     n) echo "don't forget to restart your computer manually";;
 esac
-exit`
+exit
 
 ## ZSH
 
-`#!/bin/bash
+#!/bin/bash
 echo "Enter variable name: "
 read variable_name
 echo "Enter variable value: "
@@ -41,4 +41,4 @@ case $restart in
     y) sudo shutdown -r 0;;
     n) echo "don't forget to restart your computer manually";;
 esac
-exit`
+exit
